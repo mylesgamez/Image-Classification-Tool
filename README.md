@@ -1,7 +1,7 @@
-**Image Classification with Python and TensorFlow**
+# Image Classification with Python and TensorFlow
 This is a simple Python script that uses the TensorFlow library and a pre-trained MobileNetV2 model to classify images.
 
-**Requirements**
+## Requirements
 This script requires the following Python libraries:
 
 TensorFlow
@@ -12,7 +12,7 @@ Pillow
 You can install these with pip by running:
 ''' pip install tensorflow keras numpy pillow '''
 
-**Usage**
+## Usage
 To use the script, simply run it from the command line and provide the path to the image you want to classify as a command-line argument.
 
 For example:
@@ -20,7 +20,7 @@ For example:
 
 This will output the top 5 predictions for what the model thinks the image contains, along with the model's confidence for each prediction.
 
-**Example Output**
+## Example Output**
 Here's an example of what the output might look like:
 '''
 Golden Retriever: 95.67%
@@ -30,5 +30,5 @@ Tibetan Mastiff: 0.25%
 Great Pyrenees: 0.12%
 '''
 
-**License**
+## License**
 This project is licensed under the terms of the MIT license.
